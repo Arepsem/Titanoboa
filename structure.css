@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container{
+	width: 100%;
+	margin: auto;
+}
+
+#content1{
+	width: 100%;
+	margin: auto;
+}
+
+#contentA{
+	width: 50%;
+	float: left;
+}
+#contentb{
+	width: 50%;
+	float: right;
+}
+
+/* On smaller screens, make the width 100% */
+@media only screen and (max-width: 500px) {
+  #container, #content1, #contentA, #contentb,.container {width:100%;}
+  
+}
+
+* {box-sizing:border-box}
